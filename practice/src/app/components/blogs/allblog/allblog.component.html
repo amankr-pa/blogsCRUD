@@ -1,0 +1,11 @@
+<div class="row blog-card" *ngFor="let blog of blogs ; let i= index" >
+  <div class="col-sm-4">
+    <img class="responsive" src="{{blog.imagePath}}" width="100%" >
+  </div>
+  <div class="col-sm-8">
+    <h2>{{blog.title}}</h2>
+    <small>{{blog.category}}</small><br><br>
+    <p>{{blog.content}}</p>
+  </div>
+</div>
+<!-- <p>welcome to angular blog</p> -->
